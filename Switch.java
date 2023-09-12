@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 
 public class Switch {
-    public static void main (String[] args) {
+    public static void main (String... args) {
         var grade = JOptionPane.showInputDialog("Digite a sua nota!");
         switch(grade)   {
             case "1":
